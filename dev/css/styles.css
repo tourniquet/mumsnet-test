@@ -1,0 +1,177 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@font-face {
+  font-family: 'Meta Book Roman';
+  src: url(/dist/fonts/meta_book_roman.ttf); }
+
+header .share-aware {
+  background: url(img/share-aware.png) no-repeat center red;
+  height: 60px; }
+
+header .logo {
+  background: #00619e;
+  color: #fff;
+  height: 50px; }
+
+article {
+  padding: 0 12px; }
+  article .home-link {
+    font-size: 14px; }
+  article h1 {
+    font-family: 'Meta Book Roman';
+    font-size: 36px;
+    line-height: 42px; }
+  article ul.social-buttons {
+    padding-left: 0; }
+    article ul.social-buttons li {
+      display: inline-block;
+      padding-right: 8px; }
+      article ul.social-buttons li img {
+        width: 38px; }
+  article .main-article {
+    background: #f0f0f0;
+    font-size: 15px;
+    line-height: 25px; }
+    article .main-article img {
+      padding: 10px 0; }
+    article .main-article ul.main-article-links {
+      padding: 0; }
+      article .main-article ul.main-article-links li::before {
+        content: '→ ';
+        color: #711972; }
+
+.talks {
+  color: #00619e;
+  margin-top: 26px; }
+  .talks .talks-header {
+    background: #00619e;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    width: 100%; }
+  .talks .talks-header-arrow {
+    float: right;
+    padding-right: 15px; }
+  .talks ul.last-talks {
+    background: #f0f0f0;
+    font-size: 15px; }
+    .talks ul.last-talks li {
+      padding: 9px 0; }
+  .talks ul.talks-footer {
+    align-items: center;
+    background: #00619e;
+    color: #fff;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    margin-top: -10px;
+    padding: 0;
+    width: 100%; }
+    .talks ul.talks-footer li {
+      display: inline-block; }
+
+footer ul.footer-links {
+  padding: 0; }
+  footer ul.footer-links li {
+    display: inline-block; }
+
+ul.calculator-calendar-links {
+  padding: 0; }
+  ul.calculator-calendar-links li::before {
+    content: '→ ';
+    color: #711972; }
+
+.container {
+  color: #4a4a4a;
+  font-family: 'Roboto', sans-serif;
+  padding: 0; }
+  .container ul {
+    list-style: none; }
+  .container .power-soft-advert {
+    background: url(/dist/img/power-soft.png) no-repeat center;
+    height: 256px; }
+
+@charset "UTF-8";
+article {
+  padding: 0 12px; }
+  article .home-link {
+    font-size: 14px; }
+  article h1 {
+    font-family: 'Meta Book Roman';
+    font-size: 36px;
+    line-height: 42px; }
+  article ul.social-buttons {
+    padding-left: 0; }
+    article ul.social-buttons li {
+      display: inline-block;
+      padding-right: 8px; }
+      article ul.social-buttons li img {
+        width: 38px; }
+  article .main-article {
+    background: #f0f0f0;
+    font-size: 15px;
+    line-height: 25px; }
+    article .main-article img {
+      padding: 10px 0; }
+    article .main-article ul.main-article-links {
+      padding: 0; }
+      article .main-article ul.main-article-links li::before {
+        content: '→ ';
+        color: #711972; }
+
+footer ul.footer-links {
+  padding: 0; }
+  footer ul.footer-links li {
+    display: inline-block; }
+
+header .share-aware {
+  background: url(img/share-aware.png) no-repeat center red;
+  height: 60px; }
+
+header .logo {
+  background: #00619e;
+  color: #fff;
+  height: 50px; }
+
+@charset "UTF-8";
+ul.calculator-calendar-links {
+  padding: 0; }
+  ul.calculator-calendar-links li::before {
+    content: '→ ';
+    color: #711972; }
+
+.talks {
+  color: #00619e;
+  margin-top: 26px; }
+  .talks .talks-header {
+    background: #00619e;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    width: 100%; }
+  .talks .talks-header-arrow {
+    float: right;
+    padding-right: 15px; }
+  .talks ul.last-talks {
+    background: #f0f0f0;
+    font-size: 15px; }
+    .talks ul.last-talks li {
+      padding: 9px 0; }
+  .talks ul.talks-footer {
+    align-items: center;
+    background: #00619e;
+    color: #fff;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    margin-top: -10px;
+    padding: 0;
+    width: 100%; }
+    .talks ul.talks-footer li {
+      display: inline-block; }

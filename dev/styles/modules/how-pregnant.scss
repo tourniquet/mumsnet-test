@@ -1,0 +1,8 @@
+ul.calculator-calendar-links {
+  padding: 0;
+
+  li::before {
+    content: '→ ';
+    color: #711972;
+  }
+}

@@ -1,0 +1,45 @@
+article {
+  padding: 0 12px;
+
+  .home-link {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-family: 'Meta Book Roman';
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  ul.social-buttons {
+    padding-left: 0;
+
+    li {
+      display: inline-block;
+      padding-right: 8px;
+
+      img {
+        width: 38px;
+      }
+    }
+  }
+
+  .main-article {
+    background: #f0f0f0;
+    font-size: 15px;
+    line-height: 25px;
+
+    img {
+      padding: 10px 0;
+    }
+
+    ul.main-article-links {
+      padding: 0;
+
+      li::before {
+        content: '→ ';
+        color: #711972;
+      }
+    }
+  }
+}
