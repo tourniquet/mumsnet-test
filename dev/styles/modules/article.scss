@@ -12,8 +12,6 @@ article {
   }
 
   ul.social-buttons {
-    padding-left: 0;
-
     li {
       display: inline-block;
       padding-right: 8px;
@@ -34,8 +32,6 @@ article {
     }
 
     ul.main-article-links {
-      padding: 0;
-
       li::before {
         content: '→ ';
         color: #711972;

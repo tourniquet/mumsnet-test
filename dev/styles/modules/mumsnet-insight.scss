@@ -1,0 +1,29 @@
+.mumsnet-insight {
+  span {
+    background: #737277;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    width: 100%;
+  }
+
+  ul.mumsnet-insight-links {
+    li {
+      height: 60px;
+      padding: 50px 0;
+
+      &.insight-first {
+        padding-top: 20px;
+      }
+
+      img {
+        float: left;
+        padding-right: 10px;
+      }
+    }
+  }
+}
+

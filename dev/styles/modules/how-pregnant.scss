@@ -1,8 +1,59 @@
-ul.calculator-calendar-links {
-  padding: 0;
-
-  li::before {
-    content: '→ ';
-    color: #711972;
+.how-pregnant,
+.early-signs,
+.naughty-kids {
+  h2 {
+    color: #00619e;
   }
+
+  span {
+    background: #737277;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    width: 100%;
+
+    &.naughty-kids-title {
+      background: #711972;
+    }
+  }
+
+  p {
+    img {
+      float: right;
+    }
+  }
+
+  ul.calculator-calendar-links,
+  ul.early-signs-links,
+  ul.naughty-kids-links {
+    clear: both;
+    padding-top: 20px;
+
+    li::before {
+      content: '→ ';
+      color: #711972;
+    }
+  }  
+}
+
+.naughty-kids {
+  margin: 20px 0;
+
+  .naughty-kids-p {
+    background: #efefef;
+
+    img {
+      margin: 0 auto;
+      padding-top: 10px;
+    }
+
+    ul {
+      padding-left: 10px;
+      padding-bottom: 10px;
+    }
+  }
+
 }

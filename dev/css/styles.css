@@ -8,10 +8,10 @@ header .share-aware {
   background: url(img/share-aware.png) no-repeat center red;
   height: 60px; }
 
-header .logo {
+header nav {
   background: #00619e;
   color: #fff;
-  height: 50px; }
+  margin-top: 60px; }
 
 article {
   padding: 0 12px; }
@@ -21,24 +21,20 @@ article {
     font-family: 'Meta Book Roman';
     font-size: 36px;
     line-height: 42px; }
-  article ul.social-buttons {
-    padding-left: 0; }
-    article ul.social-buttons li {
-      display: inline-block;
-      padding-right: 8px; }
-      article ul.social-buttons li img {
-        width: 38px; }
+  article ul.social-buttons li {
+    display: inline-block;
+    padding-right: 8px; }
+    article ul.social-buttons li img {
+      width: 38px; }
   article .main-article {
     background: #f0f0f0;
     font-size: 15px;
     line-height: 25px; }
     article .main-article img {
       padding: 10px 0; }
-    article .main-article ul.main-article-links {
-      padding: 0; }
-      article .main-article ul.main-article-links li::before {
-        content: '→ ';
-        color: #711972; }
+    article .main-article ul.main-article-links li::before {
+      content: '→ ';
+      color: #711972; }
 
 .talks {
   color: #00619e;
@@ -57,42 +53,100 @@ article {
     padding-right: 15px; }
   .talks ul.last-talks {
     background: #f0f0f0;
-    font-size: 15px; }
+    font-size: 15px;
+    padding-left: 10px; }
     .talks ul.last-talks li {
       padding: 9px 0; }
+      .talks ul.last-talks li span {
+        background: #fff;
+        color: #00619e;
+        margin-right: 5px; }
   .talks ul.talks-footer {
     align-items: center;
     background: #00619e;
     color: #fff;
     display: flex;
     height: 50px;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: -10px;
-    padding: 0;
     width: 100%; }
     .talks ul.talks-footer li {
       display: inline-block; }
 
-footer ul.footer-links {
-  padding: 0; }
-  footer ul.footer-links li {
-    display: inline-block; }
+footer ul.footer-links li {
+  display: inline-block; }
 
-ul.calculator-calendar-links {
-  padding: 0; }
-  ul.calculator-calendar-links li::before {
+.how-pregnant h2,
+.early-signs h2,
+.naughty-kids h2 {
+  color: #00619e; }
+
+.how-pregnant span,
+.early-signs span,
+.naughty-kids span {
+  background: #737277;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  width: 100%; }
+  .how-pregnant span.naughty-kids-title,
+  .early-signs span.naughty-kids-title,
+  .naughty-kids span.naughty-kids-title {
+    background: #711972; }
+
+.how-pregnant p img,
+.early-signs p img,
+.naughty-kids p img {
+  float: right; }
+
+.how-pregnant ul.calculator-calendar-links,
+.how-pregnant ul.early-signs-links,
+.how-pregnant ul.naughty-kids-links,
+.early-signs ul.calculator-calendar-links,
+.early-signs ul.early-signs-links,
+.early-signs ul.naughty-kids-links,
+.naughty-kids ul.calculator-calendar-links,
+.naughty-kids ul.early-signs-links,
+.naughty-kids ul.naughty-kids-links {
+  clear: both;
+  padding-top: 20px; }
+  .how-pregnant ul.calculator-calendar-links li::before,
+  .how-pregnant ul.early-signs-links li::before,
+  .how-pregnant ul.naughty-kids-links li::before,
+  .early-signs ul.calculator-calendar-links li::before,
+  .early-signs ul.early-signs-links li::before,
+  .early-signs ul.naughty-kids-links li::before,
+  .naughty-kids ul.calculator-calendar-links li::before,
+  .naughty-kids ul.early-signs-links li::before,
+  .naughty-kids ul.naughty-kids-links li::before {
     content: '→ ';
     color: #711972; }
+
+.naughty-kids {
+  margin: 20px 0; }
+  .naughty-kids .naughty-kids-p {
+    background: #efefef; }
+    .naughty-kids .naughty-kids-p img {
+      margin: 0 auto;
+      padding-top: 10px; }
+    .naughty-kids .naughty-kids-p ul {
+      padding-left: 10px;
+      padding-bottom: 10px; }
 
 .container {
   color: #4a4a4a;
   font-family: 'Roboto', sans-serif;
   padding: 0; }
   .container ul {
-    list-style: none; }
+    list-style: none;
+    padding-left: 0; }
   .container .power-soft-advert {
     background: url(/dist/img/power-soft.png) no-repeat center;
-    height: 256px; }
+    height: 256px;
+    margin-bottom: 47px; }
 
 @charset "UTF-8";
 article {
@@ -103,45 +157,112 @@ article {
     font-family: 'Meta Book Roman';
     font-size: 36px;
     line-height: 42px; }
-  article ul.social-buttons {
-    padding-left: 0; }
-    article ul.social-buttons li {
-      display: inline-block;
-      padding-right: 8px; }
-      article ul.social-buttons li img {
-        width: 38px; }
+  article ul.social-buttons li {
+    display: inline-block;
+    padding-right: 8px; }
+    article ul.social-buttons li img {
+      width: 38px; }
   article .main-article {
     background: #f0f0f0;
     font-size: 15px;
     line-height: 25px; }
     article .main-article img {
       padding: 10px 0; }
-    article .main-article ul.main-article-links {
-      padding: 0; }
-      article .main-article ul.main-article-links li::before {
-        content: '→ ';
-        color: #711972; }
+    article .main-article ul.main-article-links li::before {
+      content: '→ ';
+      color: #711972; }
 
-footer ul.footer-links {
-  padding: 0; }
-  footer ul.footer-links li {
-    display: inline-block; }
+footer ul.footer-links li {
+  display: inline-block; }
 
 header .share-aware {
   background: url(img/share-aware.png) no-repeat center red;
   height: 60px; }
 
-header .logo {
+header nav {
   background: #00619e;
   color: #fff;
-  height: 50px; }
+  margin-top: 60px; }
 
 @charset "UTF-8";
-ul.calculator-calendar-links {
-  padding: 0; }
-  ul.calculator-calendar-links li::before {
+.how-pregnant h2,
+.early-signs h2,
+.naughty-kids h2 {
+  color: #00619e; }
+
+.how-pregnant span,
+.early-signs span,
+.naughty-kids span {
+  background: #737277;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  width: 100%; }
+  .how-pregnant span.naughty-kids-title,
+  .early-signs span.naughty-kids-title,
+  .naughty-kids span.naughty-kids-title {
+    background: #711972; }
+
+.how-pregnant p img,
+.early-signs p img,
+.naughty-kids p img {
+  float: right; }
+
+.how-pregnant ul.calculator-calendar-links,
+.how-pregnant ul.early-signs-links,
+.how-pregnant ul.naughty-kids-links,
+.early-signs ul.calculator-calendar-links,
+.early-signs ul.early-signs-links,
+.early-signs ul.naughty-kids-links,
+.naughty-kids ul.calculator-calendar-links,
+.naughty-kids ul.early-signs-links,
+.naughty-kids ul.naughty-kids-links {
+  clear: both;
+  padding-top: 20px; }
+  .how-pregnant ul.calculator-calendar-links li::before,
+  .how-pregnant ul.early-signs-links li::before,
+  .how-pregnant ul.naughty-kids-links li::before,
+  .early-signs ul.calculator-calendar-links li::before,
+  .early-signs ul.early-signs-links li::before,
+  .early-signs ul.naughty-kids-links li::before,
+  .naughty-kids ul.calculator-calendar-links li::before,
+  .naughty-kids ul.early-signs-links li::before,
+  .naughty-kids ul.naughty-kids-links li::before {
     content: '→ ';
     color: #711972; }
+
+.naughty-kids {
+  margin: 20px 0; }
+  .naughty-kids .naughty-kids-p {
+    background: #efefef; }
+    .naughty-kids .naughty-kids-p img {
+      margin: 0 auto;
+      padding-top: 10px; }
+    .naughty-kids .naughty-kids-p ul {
+      padding-left: 10px;
+      padding-bottom: 10px; }
+
+.mumsnet-insight span {
+  background: #737277;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  width: 100%; }
+
+.mumsnet-insight ul.mumsnet-insight-links li {
+  height: 60px;
+  padding: 50px 0; }
+  .mumsnet-insight ul.mumsnet-insight-links li.insight-first {
+    padding-top: 20px; }
+  .mumsnet-insight ul.mumsnet-insight-links li img {
+    float: left;
+    padding-right: 10px; }
 
 .talks {
   color: #00619e;
@@ -160,18 +281,22 @@ ul.calculator-calendar-links {
     padding-right: 15px; }
   .talks ul.last-talks {
     background: #f0f0f0;
-    font-size: 15px; }
+    font-size: 15px;
+    padding-left: 10px; }
     .talks ul.last-talks li {
       padding: 9px 0; }
+      .talks ul.last-talks li span {
+        background: #fff;
+        color: #00619e;
+        margin-right: 5px; }
   .talks ul.talks-footer {
     align-items: center;
     background: #00619e;
     color: #fff;
     display: flex;
     height: 50px;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: -10px;
-    padding: 0;
     width: 100%; }
     .talks ul.talks-footer li {
       display: inline-block; }
