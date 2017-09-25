@@ -5,13 +5,23 @@
   src: url(/dist/fonts/meta_book_roman.ttf); }
 
 header .share-aware {
-  background: url(img/share-aware.png) no-repeat center red;
-  height: 60px; }
+  background: url(img/share-aware.png) no-repeat center #efefef;
+  height: 60px;
+  z-index: 1; }
 
-header nav {
-  background: #00619e;
-  color: #fff;
-  margin-top: 60px; }
+header nav .navbar-header {
+  background: #00619e; }
+  header nav .navbar-header button.navbar-toggle {
+    border-color: #fff; }
+    header nav .navbar-header button.navbar-toggle span.icon-bar {
+      background: #fff; }
+  header nav .navbar-header a.navbar-brand {
+    color: #fff; }
+
+header .navbar-collapse {
+  background: #00619e; }
+  header .navbar-collapse ul.navbar-nav li a {
+    color: #fff; }
 
 article {
   padding: 0 12px; }
@@ -136,6 +146,16 @@ footer ul.footer-links li {
       padding-left: 10px;
       padding-bottom: 10px; }
 
+.links {
+  background: #00619e; }
+  .links .panel-group .panel-default {
+    border: 1px solid #00619e;
+    border-bottom-color: rgba(255, 255, 255, 0.28); }
+    .links .panel-group .panel-default .panel-heading {
+      background: #00619e; }
+      .links .panel-group .panel-default .panel-heading .panel-title {
+        color: #fff; }
+
 .container {
   color: #4a4a4a;
   font-family: 'Roboto', sans-serif;
@@ -176,13 +196,23 @@ footer ul.footer-links li {
   display: inline-block; }
 
 header .share-aware {
-  background: url(img/share-aware.png) no-repeat center red;
-  height: 60px; }
+  background: url(img/share-aware.png) no-repeat center #efefef;
+  height: 60px;
+  z-index: 1; }
 
-header nav {
-  background: #00619e;
-  color: #fff;
-  margin-top: 60px; }
+header nav .navbar-header {
+  background: #00619e; }
+  header nav .navbar-header button.navbar-toggle {
+    border-color: #fff; }
+    header nav .navbar-header button.navbar-toggle span.icon-bar {
+      background: #fff; }
+  header nav .navbar-header a.navbar-brand {
+    color: #fff; }
+
+header .navbar-collapse {
+  background: #00619e; }
+  header .navbar-collapse ul.navbar-nav li a {
+    color: #fff; }
 
 @charset "UTF-8";
 .how-pregnant h2,
@@ -244,6 +274,16 @@ header nav {
     .naughty-kids .naughty-kids-p ul {
       padding-left: 10px;
       padding-bottom: 10px; }
+
+.links {
+  background: #00619e; }
+  .links .panel-group .panel-default {
+    border: 1px solid #00619e;
+    border-bottom-color: rgba(255, 255, 255, 0.28); }
+    .links .panel-group .panel-default .panel-heading {
+      background: #00619e; }
+      .links .panel-group .panel-default .panel-heading .panel-title {
+        color: #fff; }
 
 .mumsnet-insight span {
   background: #737277;

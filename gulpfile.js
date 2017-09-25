@@ -22,6 +22,7 @@ gulp.task('scss', () => {
   gulp
     .src(scssFiles)
     .pipe(sass())
+    .pipe(plumber({ errorHandler: onError }))
     .pipe(concat('styles.css'))
     // .pipe(uglifycss())
     .pipe(gulp.dest('dev/css'))

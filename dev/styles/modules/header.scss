@@ -1,14 +1,33 @@
 header {
   .share-aware {
-    background: url(img/share-aware.png) no-repeat center red;
+    background: url(img/share-aware.png) no-repeat center #efefef;
     height: 60px;
+    z-index: 1;
   }
 
   nav {
+    .navbar-header {
+      background: #00619e;
+
+      button.navbar-toggle {
+        border-color: #fff;
+
+        span.icon-bar {
+          background: #fff;
+        }
+      }
+
+      a.navbar-brand {
+        color: #fff;
+      }
+    }
+  }
+
+  .navbar-collapse {
     background: #00619e;
-    color: #fff;
-    // height: 50px;
-    // position: static;
-    margin-top: 60px;
+
+    ul.navbar-nav li a {
+      color: #fff;
+    }
   }
 }

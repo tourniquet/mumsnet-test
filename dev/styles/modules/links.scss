@@ -1,0 +1,18 @@
+.links {
+  background: #00619e;
+
+  .panel-group {
+    .panel-default {
+      border: 1px solid #00619e;
+      border-bottom-color: rgba(255, 255, 255, 0.28);
+
+      .panel-heading {
+        background: #00619e;
+
+        .panel-title {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
